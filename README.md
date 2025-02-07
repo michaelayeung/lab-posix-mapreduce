@@ -286,7 +286,7 @@ set terminal png size 800,400
 set output 'colors.png'
 set style data histogram
 set style fill solid border -1
-plot 'country_code.plot_data' using 1:xtic(2) notitle
+plot 'colors.dat' using 1:xtic(2) notitle
 ```
 Notice that these are just the commands that we previously typed directly into the gnuplot terminal.
 We can now run all of these commands at once by passing the `-c boxplot.gp` arguments to gnuplot.
