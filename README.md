@@ -5,7 +5,7 @@ REMINDER TO MYSELF:
 The `notes` branch contains some partially completed lab material.
 -->
 
-Recall that in last week's lab, we saw how to use python and SQL to perform the *count distinct* and *count group* queries.
+Recall that in the first lab, we saw how to use python and SQL to perform the *count distinct* and *count group* queries.
 We had two main takeaways:
 
 1. Python's pandas library requires $\Omega(n)$ memory,
@@ -14,8 +14,13 @@ We had two main takeaways:
      and so is suitable for large datasets.
 
 In this lab, we will see how to run those same queries in the shell.
-We'll also see how to make nice visualizations of those queries using the terminal program gnuplot,
+We'll also see how to make nice visualizations of those queries using the terminal program gnuplot
 and parallelize those queries using MapReduce.
+
+<img src=img/cartoon.jpg width=400px />
+
+(The joke in the cartoon is that each one of the logos on the left hand side is a multimillion dollar company charging $$$ to analyze big data.
+We will be doing everything they can do and more with just bash for free.)
 
 ## Part 0: Setup
 
