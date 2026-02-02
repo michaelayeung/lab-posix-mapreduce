@@ -278,6 +278,33 @@ If not, ensure that you're looking at your forked repo and not my repo.
 Don't move on to the next steps until you're successfully able to view your image.
 Part of the submission for this lab will require that all of these broken image links are replaced with working images.
 
+## Part 2e: Viewing the Image in the Terminal for Real
+
+I lied before when I said that it's not possible to view an image in the terminal.
+This is possible with modern terminal emulators.
+These terminal programs are not used by default on any OS that I know of,
+so you will have to install one locally to your own computer if you would like to view images in your terminal.
+
+Those of you who are on a unix-based operating system can [download the terminal emulator kitty](https://sw.kovidgoyal.net/kitty/binary/) directly.
+
+> **NOTE:**
+> Mac and Linux are both unix-based.
+> Windows is not.
+> It is theoretically possible to install kitty via the [windows subsystem for linux](https://learn.microsoft.com/en-us/windows/wsl/install),
+> but I have not done so and cannot vouch for its effectiveness.
+>
+> Since installing kitty can be tricky,
+> this is an optional task.
+> Those of you who choose not to complete this task will have to find an alternative way to view images on the lambda server.
+
+Once kitty is installed on your own machine,
+you can run the command
+```
+$ kitty icat file.png
+```
+to view an image in the terminal.
+This should work both locally and on the lambda server.
+
 ## Part 3: Writing Gnuplot Scripts
 
 Working with gnuplot through the terminal interface is possible,
