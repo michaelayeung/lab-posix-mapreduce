@@ -386,7 +386,9 @@ In the shell (and most programming environments), any line that ends with a back
 > **ASIDE:**
 > Why does `\` at the end of the line behave this way?
 > Recall that `\` is used to *escape* the following character so that it does not have it's normal meaning.
-> For example, the python command `a = "\""` escapes the innermost `"` character so that we are able to assign `"` to the variable `a` rather than close the string.
+> For example:
+> 1. The python command `a = "\""` escapes the innermost `"` character so that we are able to assign `"` to the variable `a` rather than close the string.
+> 2. In the command above, `Twitter\ dataset` refers to a single file with a space in it and is equivalent to `'Twitter dataset'`.
 > When used at the end of a line, `\` will escape the newline character `\n` that immediately follows it.
 > This changes the behavior from being a newline to a standard space character,
 > which causes the command to continue onto the next line.
