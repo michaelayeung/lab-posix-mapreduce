@@ -445,7 +445,7 @@ You should see it appear below.
 
 ## Part 5: A Simple MapReduce
 
-Recall from the [MapReduce homework](https://github.com/mikeizbicki/twitter_coronavirus) that MapReduce is a parallel procedure for large scale data analysis.
+MapReduce is a parallel procedure for large scale data analysis.
 In MapReduce, the "mappers" analyze small parts of the dataset in parallel, and then the "reducers" combine those results into a final result.
 In the homework, you will use a combination of python and the shell to perform these tasks.
 In this lab, we'll see how to perform MapReduce entirely in the shell.
@@ -497,13 +497,13 @@ I want you to calculate how many tweets sent from the United States are written 
 > You should also modify the command to do a count group by query on the language the tweet was written in.
 > You'll have to examine the JSON objects in order to figure out where this information is stored.
 
-Plot the top 20 languages into the file `uslang-top20.png` and upload it to github.
+Plot the top 20 languages into the file `uslang-top20.png` (try your `make_gnuplot` command) and upload it to github.
 
 <img src=uslang-top20.png />
 
 ## Submission
 
-Upload the url of your forked github repo to sakai.
+Upload the url of your forked github repo to canvas.
 In order to get full credit for the lab,
 you'll need to have all of the images uploaded to github.
 
