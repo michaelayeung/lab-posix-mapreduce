@@ -361,6 +361,17 @@ $ ls
 ```
 As before, you should verify that the output of the first `ls` and second `ls` differ only by the newly created `colors.png` file.
 
+> **Note:**
+> The gnuplot syntax is hard to remember,
+> but LLMs are pretty good at converting natural english into gnuplot scripts.
+> For your homework, you will need to generate some gnuplot scripts,
+> and you can easily do this with a command like
+> ```
+> $ alias make_gnuplot="llm -x -s 'generate the specified gnuplot script only; do not provide any other output such as markdown code blocks or explanations'
+> $ make_gnuplot 'describe your plot here' > plt.gp
+> ```
+> It might be worth playing around with this right now and adding the `make_gnuplot` command to your bashrc.
+
 ## Part 4: Bigger Data
 
 Recall that the file `/data/Twitter dataset/geoTwitter20-01-01.zip` contains all of the geolocated tweets sent on January 1st 2020.
